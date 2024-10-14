@@ -1,0 +1,1 @@
+#Arquivo Python com os comandos mais utilizados
