@@ -52,3 +52,5 @@ Alguns tipos de dados suportados:
     3. `not` (NÃO lógico)
     4. `==` (igualdade)
     5. `!=` (diferença)
+
+    
