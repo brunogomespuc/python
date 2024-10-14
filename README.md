@@ -2,7 +2,7 @@
 
 **Tipos de Dados**
 
-Python suporta vários tipos de dados, incluindo, mas não se limitando a:
+Alguns tipos de dados suportados:
 
 * Inteiros (`int`)
 * Números de ponto flutuante (`float`)
