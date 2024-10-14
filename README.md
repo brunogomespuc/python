@@ -1,1 +1,1 @@
-# Arquivo Python com os comandos mais utilizados
+# Arquivo Python com os comandos mais utilizados incluindo a biblioteca Numpy
