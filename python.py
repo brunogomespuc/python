@@ -1,7 +1,8 @@
-#importando uma biblioteca
+#importando as bibliotecas
 import math
 from functools import reduce
 import re
+import numpy as np
 
 ## Lista dos comandos básicos mais utilizados no Python
 
@@ -106,3 +107,52 @@ def meu_gerador():
 
 for valor in meu_gerador():
     print(valor)  # 0 1 2 3 4
+
+
+## comandos básicos da bliblioteca numpy
+
+# Criação de arrays
+array = np.array([1, 2, 3, 4, 5])
+print(array)  # [1 2 3 4 5]
+
+# Criação de arrays com valores zeros
+zeros = np.zeros(5)
+print(zeros)  # [0. 0. 0. 0. 0.]
+
+# Criação de arrays com valores uns
+ones = np.ones(5)
+print(ones)  # [1. 1. 1. 1. 1.]
+
+# Criação de arrays com valores aleatórios
+random = np.random.random(5)
+print(random)  # [0.5488135  0.71518937 0.60276338 0.54488318 0.4236548 ]
+
+# Operações aritméticas em arrays
+soma = array + 5
+print(soma)  # [ 6  7  8  9 10]
+
+multiplicacao = array * 2
+print(multiplicacao)  # [ 2  4  6  8 10]
+
+# Funções estatísticas
+media = np.mean(array)
+print(media)  # 3.0
+
+desvio_padrao = np.std(array)
+print(desvio_padrao)  # 1.4142135623730951
+
+# Indexação e fatiamento
+print(array[0])  # 1
+print(array[1:4])  # [2 3 4]
+
+# Matrizes
+matriz = np.array([[1, 2, 3], [4, 5, 6]])
+print(matriz)
+# [[1 2 3]
+#  [4 5 6]]
+
+# Produto de matrizes
+produto = np.dot(matriz, matriz.T)
+print(produto)
+# [[14 32]
+#  [32 77]]
